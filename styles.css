@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    background: url('https://via.placeholder.com/1200x500?text=Joias+de+Luxo') no-repeat center center/cover;
+    height: 500px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-text h2 {
+    font-size: 48px;
+}
+
+.sobre, .produtos, .contato {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.sobre h2, .produtos h2, .contato h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.produtos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.produto-item {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+}
+
+.produto-item img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.produto-item p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.contato form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato input, .contato textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contato button {
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contato button:hover {
+    background: #444;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
